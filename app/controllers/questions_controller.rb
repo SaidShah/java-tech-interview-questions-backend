@@ -2,6 +2,8 @@ class QuestionsController < ApplicationController
 
 
   def index
-    render json: Question.all
+    @questions = Question.all.shuffle
+    @return_questions = @questions.take(params[:totalQuestons].to_i)
+    render json: @return_questions
   end
 end
