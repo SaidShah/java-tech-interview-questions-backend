@@ -38,7 +38,7 @@ Question.create(question: "Is it possible to pass arguments to a function or met
 
 Question.create(question: "Can a class have multiple constructors?",answer: "Yes, a class can have as many constructos as you want as long as they have different paramets. When a class has many constructors they are called overloaded.")
 
-Question.create(question: "Is a string a data type in Java?",answer: "No, a string is not a primitive data type it's actually a class. It's an object of Java.land.string")
+Question.create(question: "Is a string a data type in Java?",answer: "No, a string is not a primitive data type it's actually a class. It's an object of Java.lang.string")
 
 Question.create(question: "What is multi-threading?",answer: "It's a form of multi-tasking. It can run multiple tasks concurrently within a single program. It allows us to run efficient proframs by letting us get the maximum use out of the CPU, and it's helpful by keeping idle time to a minimum.")
 
