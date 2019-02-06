@@ -152,32 +152,32 @@
 #
 # Question.create(question: "What is the dictionary class?",answer: "The dictionary class provides the capability to store key-value pairs.")
 
-Question.create(question: "What are the principles of Object oriented programming?",answer: "There are 4 main principles and they are Abstraction, Polymorphism, Encapsulation and Inheritance.")
-
-Question.create(question: "What is Abstraction?",answer: "Abstraction is a process of hiding the implementation from the user and showing them just the functionality or just what they need to see. An example is when the user is sending a text message they don't have to know how the message is being sent, they only have to know to input text and press send.")
-
-Question.create(question: "What is Encapsulation?",answer: "Encapsulation is the process of hiding properties and behaviours of an object. It prevents other objects from directly accessing or altering properties of the encapsulated object.")
-
-Question.create(question: "What is the difference between encapsulation and abstraction?",answer: "Abstraction focuses on the outside view of the object like the user interface and encapsulation prevents objects from accessing other objects properties. Abstraction would solve problems on the design side while encapsulation is used for the implementation.")
-
-Question.create(question: "What is Inheritance?",answer: "Inheritance is a process where one class inherits properties of another class. The class being inherited from is usually called the super class and the class doing the inheriting is called the sub-class. It's achieved by using the extends keyword. The common reasons we use inheritance is for code reusablility and for polymorphism.")
-
-Question.create(question: "What is Polymorphism?",answer: "Polymorphism means the ability to take many forms. In Java it would give an object the ability to take on many forms. Any class that can pass more than one is-a test is considered polymorphic.")
-
-Question.create(question: "How do we implement/achieve polymorphism?",answer: "We can achieve polymorphism in 3 ways. Inheritance, overloading and overriding. Overloading is when methods have the same name but a different number of arguments. Overriding is when methods have the same signature ex. name, parameters and return type as a super class but they require a specific implementation based on the objects requirements.")
-
-Question.create(question: "What is runtime polymorphism?",answer: "It's when a call to a overriden method is resolved at runtime rather than compile time. ")
-
-Question.create(question: "What is dynamic binding?",answer: "Dynamic binding is when the code to be executed for a specific procedure is unknown until runtime. It's also called runtime binding or late binding.")
-
-Question.create(question: "What is method overloading?",answer: "Method overloading is when the same class has 2 or more methods with the same name except they have a different number of arguments.")
-
-Question.create(question: "What is method overriding?",answer: "Method overriding is when a sub-class declares a method that is declared in it's parent class with the same name, parameters and return type. It's benefit is the ability to define behaviour based on the sub-classes requirements.")
-
-Question.create(question: "How do you prevent a method from being overriden?",answer: "To prevent a method from being overridden we use the final keyword next to the method declaration. Essentially saying this is the end of it's inheritance.")
-
-Question.create(question: "What is dependancy?",answer: "Dependancy means when the functionality or properties of one class affects another class. Once way would be through inheritance.")
-
-Question.create(question: "How do you express an is-a relationshipa and a has-a relationship?",answer: "The is-a relationship is expressed through inheritance and the has-a relationship is expressed through composition. Inheritance is unidirectional for example an apple is a fruit. But Composition simply means an instance of one class has a refrence to an instance of another class.")
-
-Question.create(question: "What is the super keyword?",answer: "It's a keyword to access the methods of a parent class. It can also be used in class constructors to invoke the constructor of a parent class. It can only access public and protected methods and not private ones.")
+# Question.create(question: "What are the principles of Object oriented programming?",answer: "There are 4 main principles and they are Abstraction, Polymorphism, Encapsulation and Inheritance.")
+#
+# Question.create(question: "What is Abstraction?",answer: "Abstraction is a process of hiding the implementation from the user and showing them just the functionality or just what they need to see. An example is when the user is sending a text message they don't have to know how the message is being sent, they only have to know to input text and press send.")
+#
+# Question.create(question: "What is Encapsulation?",answer: "Encapsulation is the process of hiding properties and behaviours of an object. It prevents other objects from directly accessing or altering properties of the encapsulated object.")
+#
+# Question.create(question: "What is the difference between encapsulation and abstraction?",answer: "Abstraction focuses on the outside view of the object like the user interface and encapsulation prevents objects from accessing other objects properties. Abstraction would solve problems on the design side while encapsulation is used for the implementation.")
+#
+# Question.create(question: "What is Inheritance?",answer: "Inheritance is a process where one class inherits properties of another class. The class being inherited from is usually called the super class and the class doing the inheriting is called the sub-class. It's achieved by using the extends keyword. The common reasons we use inheritance is for code reusablility and for polymorphism.")
+#
+# Question.create(question: "What is Polymorphism?",answer: "Polymorphism means the ability to take many forms. In Java it would give an object the ability to take on many forms. Any class that can pass more than one is-a test is considered polymorphic.")
+#
+# Question.create(question: "How do we implement/achieve polymorphism?",answer: "We can achieve polymorphism in 3 ways. Inheritance, overloading and overriding. Overloading is when methods have the same name but a different number of arguments. Overriding is when methods have the same signature ex. name, parameters and return type as a super class but they require a specific implementation based on the objects requirements.")
+#
+# Question.create(question: "What is runtime polymorphism?",answer: "It's when a call to a overriden method is resolved at runtime rather than compile time. ")
+#
+# Question.create(question: "What is dynamic binding?",answer: "Dynamic binding is when the code to be executed for a specific procedure is unknown until runtime. It's also called runtime binding or late binding.")
+#
+# Question.create(question: "What is method overloading?",answer: "Method overloading is when the same class has 2 or more methods with the same name except they have a different number of arguments.")
+#
+# Question.create(question: "What is method overriding?",answer: "Method overriding is when a sub-class declares a method that is declared in it's parent class with the same name, parameters and return type. It's benefit is the ability to define behaviour based on the sub-classes requirements.")
+#
+# Question.create(question: "How do you prevent a method from being overriden?",answer: "To prevent a method from being overridden we use the final keyword next to the method declaration. Essentially saying this is the end of it's inheritance.")
+#
+# Question.create(question: "What is dependancy?",answer: "Dependancy means when the functionality or properties of one class affects another class. Once way would be through inheritance.")
+#
+# Question.create(question: "How do you express an is-a relationshipa and a has-a relationship?",answer: "The is-a relationship is expressed through inheritance and the has-a relationship is expressed through composition. Inheritance is unidirectional for example an apple is a fruit. But Composition simply means an instance of one class has a refrence to an instance of another class.")
+#
+# Question.create(question: "What is the super keyword?",answer: "It's a keyword to access the methods of a parent class. It can also be used in class constructors to invoke the constructor of a parent class. It can only access public and protected methods and not private ones.")
